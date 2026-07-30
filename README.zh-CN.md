@@ -2,7 +2,7 @@
 
 一套专为 Racket 开发打造的精简 Emacs 配置。基于 `use-package` 构建，追求简洁——不依赖臃肿的框架，只保留干净高效编辑体验所需的核心配置。
 
-![Emacs Lisp](https://img.shields.io/badge/Emacs%20Lisp-7F5AB6?logo=gnuemacs&logoColor=white) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![Emacs Lisp](https://img.shields.io/badge/Emacs_Lisp-7F5AB6?logo=gnuemacs&logoColor=white) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 [English](README.md) · **中文**
 
@@ -16,18 +16,22 @@
 
 ## 环境要求
 
-- Emacs 27+（已在 Emacs 29 上测试）
-- 网络连接（用于首次安装扩展包）
+| 依赖 | 用途 / 版本 |
+|------|------------|
+| Emacs | 27+（已在 Emacs 29 上测试） |
+| 网络连接 | 用于首次安装扩展包 |
 
-## 安装
+## 快速开始
 
-1. 将本仓库克隆到 `~/.emacs.d`：
+### 1. 克隆仓库
 
 ```bash
 git clone https://github.com/turinglambdaai/.emacs.d.git ~/.emacs.d
 ```
 
-2. 启动 Emacs，扩展包会在首次运行时自动安装。
+### 2. 启动 Emacs
+
+启动 Emacs，扩展包会在首次运行时自动安装。
 
 ## 扩展包
 
@@ -39,8 +43,6 @@ git clone https://github.com/turinglambdaai/.emacs.d.git ~/.emacs.d
 | `which-key` | 交互式键绑定发现 |
 
 ## 使用
-
-### 键绑定
 
 | 快捷键 | 功能 |
 |----------|--------|
@@ -56,6 +58,14 @@ git clone https://github.com/turinglambdaai/.emacs.d.git ~/.emacs.d
 (setq package-archives
       '(("melpa" . "https://melpa.org/packages/")
         ("gnu"   . "https://elpa.gnu.org/packages/")))
+```
+
+## 项目结构
+
+```
+.emacs.d/
+├── init.el          # 入口，扩展包与模块配置
+└── README.md        # 本文件
 ```
 
 ## 许可证

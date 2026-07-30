@@ -2,7 +2,7 @@
 
 A minimal Emacs configuration tailored for Racket development. Built on `use-package` with a focus on simplicity — no bloated frameworks, just the essentials for a clean and productive editing experience.
 
-![Emacs Lisp](https://img.shields.io/badge/Emacs%20Lisp-7F5AB6?logo=gnuemacs&logoColor=white) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![Emacs Lisp](https://img.shields.io/badge/Emacs_Lisp-7F5AB6?logo=gnuemacs&logoColor=white) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 **English** · [中文](README.zh-CN.md)
 
@@ -16,18 +16,22 @@ A minimal Emacs configuration tailored for Racket development. Built on `use-pac
 
 ## Requirements
 
-- Emacs 27+ (tested with Emacs 29)
-- Internet connection (for initial package installation)
+| Dependency | Purpose / Version |
+|------------|-------------------|
+| Emacs | 27+ (tested with Emacs 29) |
+| Internet connection | For initial package installation |
 
-## Installation
+## Quick Start
 
-1. Clone this repository to `~/.emacs.d`:
+### 1. Clone
 
 ```bash
 git clone https://github.com/turinglambdaai/.emacs.d.git ~/.emacs.d
 ```
 
-2. Launch Emacs. Packages are installed automatically on first run.
+### 2. Launch Emacs
+
+Launch Emacs. Packages are installed automatically on first run.
 
 ## Packages
 
@@ -39,8 +43,6 @@ git clone https://github.com/turinglambdaai/.emacs.d.git ~/.emacs.d
 | `which-key` | Interactive keybinding discovery |
 
 ## Usage
-
-### Key Bindings
 
 | Shortcut | Action |
 |----------|--------|
@@ -58,6 +60,14 @@ This config uses the Tsinghua MELPA mirror for faster downloads in China. To swi
         ("gnu"   . "https://elpa.gnu.org/packages/")))
 ```
 
+## Project Structure
+
+```
+.emacs.d/
+├── init.el          # Entry point, package and module configuration
+└── README.md        # This file
+```
+
 ## License
 
-Released under the [MIT License](LICENSE).
+Licensed under the [MIT License](LICENSE).
