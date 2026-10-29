@@ -26,7 +26,7 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/turinglambdaai/.emacs.d.git ~/.emacs.d
+git clone https://github.com/turlamai/.emacs.d.git ~/.emacs.d
 ```
 
 ### 2. 启动 Emacs
