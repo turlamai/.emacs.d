@@ -26,7 +26,7 @@ A minimal Emacs configuration tailored for Racket development. Built on `use-pac
 ### 1. Clone
 
 ```bash
-git clone https://github.com/turinglambdaai/.emacs.d.git ~/.emacs.d
+git clone https://github.com/turlamai/.emacs.d.git ~/.emacs.d
 ```
 
 ### 2. Launch Emacs
